@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUSC Summer School 2025</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>NUSC Summer School 2025</h1>
+            <p>Unlock your potential with cutting-edge workshops and expert academic instructors</p>
+            <div class="countdown">
+                <div class="countdown-item">
+                    <div class="countdown-number" id="days">00</div>
+                    <div class="countdown-label">Days</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="hours">00</div>
+                    <div class="countdown-label">Hours</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="minutes">00</div>
+                    <div class="countdown-label">Minutes</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="seconds">00</div>
+                    <div class="countdown-label">Seconds</div>
+                </div>
+            </div>
+            <a href="#enrollment" class="btn btn-accent">Enroll Now</a>
+        </div>
+    </header>
+    
+    <nav>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul>
+            <li><a href="#about">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#workshops">Workshops</a></li>
+            <li><a href="#instructors">Instructors</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#enrollment">Enrollment</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about">
+        <div class="container">
+            <h2>About Our Summer School</h2>
+            <p>The NUSC Summer School offers intensive, hands-on training in cutting-edge computational methods and technologies. Our program is designed for students, researchers, and professionals who want to enhance their skills and stay at the forefront of their fields.</p>
+            
+            <div class="features">
+                <div class="feature fade-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Hands-on Learning</h3>
+                        <p>All workshops include practical, hands-on sessions where you'll apply what you've learned to real-world problems.</p>
+                    </div>
+                </div>
+                
+                <div class="feature fade-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Expert Instructors</h3>
+                        <p>Learn from leading experts in academia and industry who are passionate about sharing their knowledge.</p>
+                    </div>
+                </div>
+                
+                <div class="feature fade-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Networking Opportunities</h3>
+                        <p>Connect with peers and instructors from around the world to build your professional network.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="workshops">
+        <div class="container">
+            <h2>Our Workshops</h2>
+            <div class="workshops">
+                <div class="workshop fade-in">
+                    <div class="workshop-image" style="background-image: url('https://via.placeholder.com/400x200');"></div>
+                    <div class="workshop-content">
+                        <div class="workshop-tags">
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">Python</span>
+                        </div>
+                        <h3>Introduction to Machine Learning</h3>
+                        <p>Learn the fundamentals of machine learning algorithms and how to implement them using Python and scikit-learn.</p>
+                        <a href="https://github.com/nusc-summer-school/intro-machine-learning" class="btn" target="_blank">View Repository</a>
+                    </div>
+                </div>
+                
+                <div class="workshop fade-in">
+                    <div class="workshop-image" style="background-image: url('https://via.placeholder.com/400x200');"></div>
+                    <div class="workshop-content">
+                        <div class="workshop-tags">
+                            <span class="tag">Deep Learning</span>
+                            <span class="tag">PyTorch</span>
+                        </div>
+                        <h3>Deep Learning with PyTorch</h3>
+                        <p>Explore neural networks, CNNs, RNNs, and transformers using PyTorch for various applications.</p>
+                        <a href="https://github.com/nusc-summer-school/deep-learning-pytorch" class="btn" target="_blank">View Repository</a>
+                    </div>
+                </div>
+                
+                <div class="workshop fade-in">
+                    <div class="workshop-image" style="background-image: url('https://via.placeholder.com/400x200');"></div>
+                    <div class="workshop-content">
+                        <div class="workshop-tags">
+                            <span class="tag">Data Analysis</span>
+                            <span class="tag">R</span>
+                        </div>
+                        <h3>Advanced Data Analysis with R</h3>
+                        <p>Master statistical analysis, data visualization, and modeling techniques using R and its ecosystem.</p>
+                        <a href="https://github.com/nusc-summer-school/advanced-data-analysis-r" class="btn" target="_blank">View Repository</a>
+                    </div>
+                </div>
+                
+                <div class="workshop fade-in">
+                    <div class="workshop-image" style="background-image: url('https://via.placeholder.com/400x200');"></div>
+                    <div class="workshop-content">
+                        <div class="workshop-tags">
+                            <span class="tag">Web Development</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <h3>Modern Web Development</h3>
+                        <p>Build responsive and interactive web applications using modern JavaScript frameworks and tools.</p>
+                        <a href="https://github.com/nusc-summer-school/modern-web-development" class="btn" target="_blank">View Repository</a>
+                    </div>
+                </div>
+                
+                <div class="workshop fade-in">
+                    <div class="workshop-image" style="background-image: url('https://via.placeholder.com/400x200');"></div>
+                    <div class="workshop-content">
+                        <div class="workshop-tags">
+                            <span class="tag">Big Data</span>
+                            <span class="tag">Spark</span>
+                        </div>
+                        <h3>Big Data Processing with Spark</h3>
+                        <p>Learn how to process and analyze large datasets using Apache Spark and related technologies.</p>
+                        <a href="https://github.com/nusc-summer-school/big-data-spark" class="btn" target="_blank">View Repository</a>
+                    </div>
+                </div>
+                
+                <div class="workshop fade-in">
+                    <div class="workshop-image" style="background-image: url('https://via.placeholder.com/400x200');"></div>
+                    <div class="workshop-content">
+                        <div class="workshop-tags">
+                            <span class="tag">Scientific Computing</span>
+                            <span class="tag">Julia</span>
+                        </div>
+                        <h3>Scientific Computing with Julia</h3>
+                        <p>Discover the power of Julia for high-performance scientific computing and numerical simulations.</p>
+                        <a href="https://github.com/nusc-summer-school/scientific-computing-julia" class="btn" target="_blank">View Repository</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="instructors">
+        <div class="container">
+            <h2>Our Expert Instructors</h2>
+            <div class="instructors">
+                <div class="instructor fade-in">
+                    <div class="instructor-image">
+                        <img src="https://via.placeholder.com/150x150" alt="Dr. Sarah Johnson">
+                    </div>
+                    <div class="instructor-info">
+                        <h3>Dr. Sarah Johnson</h3>
+                        <p>Machine Learning Specialist</p>
+                        <p>University of Greenwich</p>
+                        <div class="instructor-social">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="instructor fade-in">
+                    <div class="instructor-image">
+                        <img src="https://via.placeholder.com/150x150" alt="Prof. Michael Chen">
+                    </div>
+                    <div class="instructor-info">
+                        <h3>Prof. Michael Chen</h3>
+                        <p>Deep Learning Researcher</p>
+                        <p>Stanford University</p>
+                        <div class="instructor-social">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="instructor fade-in">
+                    <div class="instructor-image">
+                        <img src="https://via.placeholder.com/150x150" alt="Dr. Emily Rodriguez">
+                    </div>
+                    <div class="instructor-info">
+                        <h3>Dr. Emily Rodriguez</h3>
+                        <p>Data Science Lead</p>
+                        <p>Google Research</p>
+                        <div class="instructor-social">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="instructor fade-in">
+                    <div class="instructor-image">
+                        <img src="https://via.placeholder.com/150x150" alt="Dr. James Wilson">
+                    </div>
+                    <div class="instructor-info">
+                        <h3>Dr. James Wilson</h3>
+                        <p>Web Development Expert</p>
+                        <p>Mozilla Foundation</p>
+                        <div class="instructor-social">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="schedule">
+        <div class="container">
+            <h2>Program Schedule</h2>
+            <div class="schedule">
+                <div class="schedule-day">
+                    <div class="day-title">
+                        <h3>Day 1 - Monday, July 7, 2025</h3>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">8:30 - 9:30</div>
+                        <div class="schedule-content">
+                            <h4>Registration and Welcome Breakfast</h4>
+                            <p>Meet other participants and instructors over breakfast.</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">9:30 - 12:30</div>
+                        <div class="schedule-content">
+                            <h4>Workshop Session: Introduction to Machine Learning</h4>
+                            <p>Fundamentals of machine learning algorithms and implementation.</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">12:30 - 13:30</div>
+                        <div class="schedule-content">
+                            <h4>Lunch Break</h4>
+                            <p>Networking opportunity with peers and instructors.</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">13:30 - 16:30</div>
+                        <div class="schedule-content">
+                            <h4>Workshop Session: Deep Learning with PyTorch</h4>
+                            <p>Introduction to neural networks and PyTorch fundamentals.</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">16:30 - 18:00</div>
+                        <div class="schedule-content">
+                            <h4>Welcome Reception</h4>
+                            <p>Informal networking event with refreshments.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="schedule-day">
+                    <div class="day-title">
+                        <h3>Day 2 - Tuesday, July 8, 2025</h3>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">9:00 - 12:00</div>
+                        <div class="schedule-content">
+                            <h4>Workshop Session: Advanced Data Analysis with R</h4>
+                            <p>Statistical analysis and data visualization techniques.</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">12:00 - 13:00</div>
+                        <div class="schedule-content">
+                            <h4>Lunch Break</h4>
+                            <p>Networking opportunity with peers and instructors.</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">13:00 - 16:00</div>
+                        <div class="schedule-content">
+                            <h4>Workshop Session: Modern Web Development</h4>
+                            <p>Building responsive and interactive web applications.</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">16:00 - 17:30</div>
+                        <div class="schedule-content">
+                            <h4>Guest Lecture: AI in Industry</h4>
+                            <p>Special guest speaker from industry discussing real-world applications.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="schedule-day">
+                    <div class="day-title">
+                        <h3>Day 3 - Wednesday, July 9, 2025</h3>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">9:00 - 12:00</div>
+                        <div class="schedule-content">
+                            <h4>Workshop Session: Big Data Processing with Spark</h4>
+                            <p>Processing and analyzing large datasets with Spark.</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">12:00 - 13:00</div>
+                        <div class="schedule-content">
+                            <h4>Lunch Break</h4>
+                            <p>Networking opportunity with peers and instructors.</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">13:00 - 16:00</div>
+                        <div class="schedule-content">
+                            <h4>Workshop Session: Scientific Computing with Julia</h4>
+                            <p>High-performance scientific computing and simulations.</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-time">16:00 - 18:00</div>
+                        <div class="schedule-content">
+                            <h4>Team Project Time</h4>
+                            <p>Work on group projects with mentorship from instructors.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        What prior knowledge is required for the workshops? <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Most workshops are designed for participants with a basic understanding of programming concepts. Specific prerequisites for each workshop are listed in the workshop descriptions. Beginners are welcome to join the introductory workshops, while more advanced workshops may require specific prior knowledge.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Is there accommodation available for participants? <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we have arrangements with nearby hotels and university dormitories for discounted accommodation rates. Details will be provided after registration. Participants are responsible for making their own reservations.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        What should I bring to the workshops? <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Participants should bring their own laptops with the required software pre-installed. Installation instructions will be sent to registered participants two weeks before the start of the summer school. All necessary datasets and materials will be provided.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Are there any scholarships available? <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we offer a limited number of scholarships for students and early-career researchers. The application process for scholarships is separate from the regular registration. Please check the scholarship section on our website for more information and deadlines.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Will I receive a certificate after completing the workshops? <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, all participants who attend the full duration of their registered workshops will receive a certificate of completion. Additionally, participants who successfully complete the team projects will receive a project-based certificate.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="enrollment">
+        <div class="container">
+            <h2>Enroll Now</h2>
+            <form id="enrollment-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="institution">Institution/Organization</label>
+                    <input type="text" id="institution" name="institution" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="role">Your Role</label>
+                    <select id="role" name="role" required>
+                        <option value="">Select your role</option>
+                        <option value="student">Student</option>
+                        <option value="researcher">Researcher</option>
+                        <option value="professional">Industry Professional</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label>Workshops (Select all that apply)</label>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="workshop1" name="workshops" value="machine-learning">
+                        <label for="workshop1">Introduction to Machine Learning</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="workshop2" name="workshops" value="deep-learning">
+                        <label for="workshop2">Deep Learning with PyTorch</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="workshop3" name="workshops" value="data-analysis">
+                        <label for="workshop3">Advanced Data Analysis with R</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="workshop4" name="workshops" value="web-development">
+                        <label for="workshop4">Modern Web Development</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="workshop5" name="workshops" value="big-data">
+                        <label for="workshop5">Big Data Processing with Spark</label>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="workshop6" name="workshops" value="scientific-computing">
+                        <label for="workshop6">Scientific Computing with Julia</label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="experience">Experience Level</label>
+                    <select id="experience" name="experience" required>
+                        <option value="">Select your experience level</option>
+                        <option value="beginner">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Additional Information (Optional)</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-accent">Submit Application</button>
+            </form>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>info@nuscsummerschool.edu</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+44 7768909791 </p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>University of Greenwich, Old Royal Naval College, Greenwich, London, SE10 9LS</p>
+                </div>
+            </div>
+            
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="contact-name">Your Name</label>
+                    <input type="text" id="contact-name" name="contact-name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="contact-email">Email Address</label>
+                    <input type="email" id="contact-email" name="contact-email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="contact-message">Message</label>
+                    <textarea id="contact-message" name="contact-message" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>NUSC Summer School</h3>
+                <p>Providing high-quality education and training in computational methods since 2015.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#workshops">Workshops</a></li>
+                    <li><a href="#instructors">Instructors</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#enrollment">Enrollment</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="#">Past Workshops</a></li>
+                    <li><a href="#">Publications</a></li>
+                    <li><a href="#">Scholarships</a></li>
+                    <li><a href="#">Research Opportunities</a></li>
+                    <li><a href="#">Student Testimonials</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 NUSC Summer School | Created for the Website Competiton | By Ebenezer Ahemor | All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+<!--================================== END FOOTER SECTION =====================================-->
